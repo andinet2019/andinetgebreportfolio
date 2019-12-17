@@ -1,9 +1,10 @@
 $(document).ready(function(){
     $('.header').height($(window).height());
-})
+});
 
 
-$('a.embed').gdocsViewer();
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
 
-$('#embedURL').gdocsViewer();
-$('a.embed').gdocsViewer({ width: 400, height: 500 });
+
